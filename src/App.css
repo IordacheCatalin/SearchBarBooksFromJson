@@ -1,38 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to right, #2f80ed, #56ccf2);
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+  height: 110vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  max-width: 1262px;
+  overflow-x: hidden;
+  margin: 0 auto;
+
+}
+
+.Header {
+  display: flex;
+  padding: 0px 20px 0px 20px;
+}
+
+.searchBarSectionLink {
+  display: flex;
+  flex-direction: row; 
+  height: 100px;
+   flex: 1 1 0;
+  gap:16px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+ }
+
+.menuLink, .menuLink:visited {
+  background-color:black;
   color: white;
+  padding: 14px 25px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+.menuLink:hover, .menuLink:active {
+  background-color: rgb(0, 88, 122);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bookSection{
+  display: flex;
+  flex-wrap: wrap;
+   
 }
