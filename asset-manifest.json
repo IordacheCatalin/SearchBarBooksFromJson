@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SearchBarBooksFromJson/static/css/main.310ee2d5.css",
-    "main.js": "/SearchBarBooksFromJson/static/js/main.4875389b.js",
+    "main.css": "/SearchBarBooksFromJson/static/css/main.95e05534.css",
+    "main.js": "/SearchBarBooksFromJson/static/js/main.cf453512.js",
     "index.html": "/SearchBarBooksFromJson/index.html",
-    "main.310ee2d5.css.map": "/SearchBarBooksFromJson/static/css/main.310ee2d5.css.map",
-    "main.4875389b.js.map": "/SearchBarBooksFromJson/static/js/main.4875389b.js.map"
+    "main.95e05534.css.map": "/SearchBarBooksFromJson/static/css/main.95e05534.css.map",
+    "main.cf453512.js.map": "/SearchBarBooksFromJson/static/js/main.cf453512.js.map"
   },
   "entrypoints": [
-    "static/css/main.310ee2d5.css",
-    "static/js/main.4875389b.js"
+    "static/css/main.95e05534.css",
+    "static/js/main.cf453512.js"
   ]
 }
