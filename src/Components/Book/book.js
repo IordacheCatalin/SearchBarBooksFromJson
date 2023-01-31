@@ -34,7 +34,7 @@ function book() {
                 
                 </div>
                 <div className="imageSection">
-                  <img src={book.imageLink} alt="Book photobook" width="220" height="320"/>
+                  <img src={book.imageLink} alt="Book photobook"/>
                   </div>
                   <a href={book.link} key={book.id} target="blank" className="link"> <button className="ButtonWikipedia"> Wikipedia link </button></a>
               </div>

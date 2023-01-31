@@ -72,3 +72,10 @@
     cursor: pointer;
   }
 
+  @media only screen and (max-width: 600px) {
+    .inputSection {
+        width: 330px;
+      
+    }
+  
+  }
